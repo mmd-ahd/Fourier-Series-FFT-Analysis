@@ -1,9 +1,9 @@
 # Fourier-Series-FFT-Analysis
 A Python-based Jupyter Notebook project for computing and visualizing Fourier series coefficients of periodic functions using the Fast Fourier Transform (FFT) method. Includes examples with sine, sawtooth, and triangle waves, along with interactive visualizations to demonstrate convergence with varying harmonic terms.
-Project Overview
+## Project Overview
 Explores Fourier series decomposition of periodic signals using NumPy and Matplotlib, leveraging FFT for efficient coefficient calculation.
 
-Features
+## Features
 
 FFT-based coefficient computation.
 
@@ -13,23 +13,14 @@ Support for common waveforms (sine, sawtooth, triangle).
 
 Parameter customization (period, sample points, harmonic terms).
 
-Installation
-Dependencies: Python 3, NumPy, Matplotlib, Jupyter Notebook.
-
-Usage
-
-Load the notebook, define your function or test predefined waveforms.
-
-Adjust parameters and run cells to compute/visualize results.
-
-Examples
+## Examples
 Preconfigured tests for sine, sawtooth, and triangle waves with dynamic plotting.
 
-Methodology
+## Methodology
 Uses Nyquist sampling and np.fft.rfft for real-valued coefficient extraction.
 
-References
+## References
 
-NumPy FFT documentation.
+[1] E. Messina, “Fourier Series in Python.” Accessed: May 11, 2025. [Online]. Available: https://computationalmindset.com/en/mathematics/fourier-series-in-python.html
 
-Signal processing techniques for Fourier analysis.
+[2] “Discrete Fourier Transform (numpy.fft) — NumPy v2.2 Manual.” Accessed: May 11, 2025. [Online]. Available: https://numpy.org/doc/stable/reference/routines.fft.html
